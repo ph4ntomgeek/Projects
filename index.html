@@ -7,17 +7,21 @@
   <meta charset="UTF-8">
  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>-->
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <!-- extra links-->
+  <!-- cdn links-->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="index.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap" rel="stylesheet">
   <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+  <!--my links -->
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <script src="script.js"></script>
+  
   <title>MySites</title>
+  
   
 </head>
 
@@ -64,52 +68,52 @@
           <div class="one border border-dark">
             <h3><span style="color:blue" >Social</span> Media</h3>  
             <ul>
-            <li><a href="https://www.facebook.com/"  target="_blank"><i class='bx bxl-facebook-circle'></i>Facebook</a></li>
-            <li><a href="https://www.instagram.com/" target="_blank"><i class='bx bxl-instagram'></i>Instagram</a></li>
-            <li><a href="https://www.twitter.com/" target="_blank" ><i class='bx bxl-twitter'></i>Twitter</a></li>
-            <li><a href="https://www.pinterest.com/" target="_blank"><i class='bx bxl-pinterest'></i>Pinterest</a></li>
-            <li><a href="https://www.pixabay.com/" target="_blank" ><i class='bx bxl-product-hunt'></i>Pixabay</a></li>
-            <li><a href="https://www.reddit.com/" target="_blank" ><i class='bx bxl-reddit'></i>Reddit</a></li>
-            <li><a href="https://www.twitch.tv/" target="_blank" ><i class='bx bxl-twitch'></i>Twitch</a></li>
-            <li><a href="https://www.youtube.com/" target="_blank" ><i class='bx bxl-youtube'></i>YouTube</a></li>
-            <li><a href="https://www.zoom.us/"  target="_blank"><i class='bx bx-video'></i>Zoom</a></li>
+            <li onmouseover="zoomin()" onmouseout="zoomout()"><a href="https://www.facebook.com/"  target="_blank"><i class='bx bxl-facebook-circle'></i>Facebook</a></li>
+            <li onmouseover="zoomin()" onmouseout="zoomout()" ><a href="https://www.instagram.com/" target="_blank"><i class='bx bxl-instagram'></i>Instagram</a></li>
+            <li onmouseover="zoomin()" onmouseout="zoomout()"><a href="https://www.twitter.com/" target="_blank" ><i class='bx bxl-twitter'></i>Twitter</a></li>
+            <li onmouseover="zoomin()" onmouseout="zoomout()" ><a href="https://www.pinterest.com/" target="_blank"><i class='bx bxl-pinterest'></i>Pinterest</a></li>
+            <li onmouseover="zoomin()" onmouseout="zoomout()" ><a href="https://www.pixabay.com/" target="_blank" ><i class='bx bxl-product-hunt'></i>Pixabay</a></li>
+            <li onmouseover="zoomin()" onmouseout="zoomout()" ><a href="https://www.reddit.com/" target="_blank" ><i class='bx bxl-reddit'></i>Reddit</a></li>
+            <li onmouseover="zoomin()" onmouseout="zoomout()" ><a href="https://www.twitch.tv/" target="_blank" ><i class='bx bxl-twitch'></i>Twitch</a></li>
+            <li onmouseover="zoomin()" onmouseout="zoomout()" ><a href="https://www.youtube.com/" target="_blank" ><i class='bx bxl-youtube'></i>YouTube</a></li>
+            <li onmouseover="zoomin()" onmouseout="zoomout()" ><a href="https://www.zoom.us/"  target="_blank"><i class='bx bx-video'></i>Zoom</a></li>
             </ul>
           </div>
           
           <div class="one">
             <h3><span style="color:blue">Hobbies</span></h3> 
             <ul>
-            <li><a href="https://www.github.com/" target="_blank"  ><i class='bx bxl-github'></i>GitHub</a></li>
-            <li><a href="https:/www.freecodecamp.org/"  target="_blank"><i class='bx bx-code-alt'></i>FreeCodeCamp</a></li>
-            <li><a href="https://www.w3schools.com/"  target="_blank"><i class='bx bx-code-alt'></i>W3Schools</a></li>
-            <li><a href="https://www.tryhackme.com/"  target="_blank"><i class='bx bx-code-alt'></i>TryHackMe</a></li>
-            <li><a href="https://www.stackoverflow.com/"  target="_blank"><i class='bx bx-code-alt'></i>Stackoverflow</a></li>
-            <li><a href="https://www.animefox.io/"  target="_blank"><i class='bx bx-question-mark'></i>AnimeFox</a></li>
-            <li><a href="https://www.netflix.com/"  target="_blank"><i class='bx bx-question-mark'></i>Netflix</a></li>
-            <li><a href="https://www.primevideo.com/"target="_blank"><i class='bx bx-question-mark'></i>Prime Video</a></li>
+            <li onmouseover="zoomin()" onmouseout="zoomout()" ><a href="https://www.github.com/" target="_blank"  ><i class='bx bxl-github'></i>GitHub</a></li>
+            <li onmouseover="zoomin()" onmouseout="zoomout()" ><a href="https:/www.freecodecamp.org/"  target="_blank"><i class='bx bx-code-alt'></i>FreeCodeCamp</a></li>
+            <li onmouseover="zoomin()" onmouseout="zoomout()" ><a href="https://www.w3schools.com/"  target="_blank"><i class='bx bx-code-alt'></i>W3Schools</a></li>
+            <li onmouseover="zoomin()" onmouseout="zoomout()" ><a href="https://www.tryhackme.com/"  target="_blank"><i class='bx bx-code-alt'></i>TryHackMe</a></li>
+            <li onmouseover="zoomin()" onmouseout="zoomout()" ><a href="https://www.stackoverflow.com/"  target="_blank"><i class='bx bx-code-alt'></i>Stackoverflow</a></li>
+            <li onmouseover="zoomin()" onmouseout="zoomout()" ><a href="https://www.animefox.io/"  target="_blank"><i class='bx bx-question-mark'></i>AnimeFox</a></li>
+            <li onmouseover="zoomin()" onmouseout="zoomout()" ><a href="https://www.netflix.com/"  target="_blank"><i class='bx bx-question-mark'></i>Netflix</a></li>
+            <li onmouseover="zoomin()" onmouseout="zoomout()" ><a href="https://www.primevideo.com/"target="_blank"><i class='bx bx-question-mark'></i>Prime Video</a></li>
             </ul>
           </div>
           
           <div class="one">
             <h3><span style="color:blue">Games</span></h3> 
             <ul>
-            <li><a href="https://www.chess.com/"  target="_blank" ><i class='bx bxs-chess'></i>Chess</a></li>
-            <li><a href="https://www.lichess.org/"  target="_blank"><i class='bx bxs-chess'></i>Lichess</a></li>
-            <li><a href="https://www.skribbl.io/"target="_blank"><i class='bx bx-question-mark'></i>Skribbl</a></li>
+            <li onmouseover="zoomin()" onmouseout="zoomout()" ><a href="https://www.chess.com/"  target="_blank" ><i class='bx bxs-chess'></i>Chess</a></li>
+            <li onmouseover="zoomin()" onmouseout="zoomout()" ><a href="https://www.lichess.org/"  target="_blank"><i class='bx bxs-chess'></i>Lichess</a></li>
+            <li onmouseover="zoomin()" onmouseout="zoomout()" ><a href="https://www.skribbl.io/"target="_blank"><i class='bx bx-question-mark'></i>Skribbl</a></li>
             </ul>
           </div>
           
           <div class="one">
             <h3>Miscell<span style="color:blue">aneous</span></h3> 
             <ul>
-            <li><a href="https://www.khanacademy.com/" target="_blank" ><i class='bx bx-question-mark'></i>KhanAcademy</a></li>
-            <li><a href="https://www.map.google.com/"target="_blank"><i class='bx bxs-map'></i>Google Maps</a></li>
-            <li><a href="https://www.mail.google.com/"target="_blank"><i class='bx bxl-github'></i>Gmail</a></li>
-            <li><a href="https://www.cloud.google.com/"target="_blank"><i class='bx bx-cloud'></i>Google Cloud</a></li>
-            <li><a href="https://www.heroku.com/" target="_blank"><i class='bx bx-question-mark'></i>Heroku</a></li>
-            <li><a href="https://www.quora.com/"target="_blank"><i class='bx bx-question-mark'></i>Quora</a></li>
-            <li><a href="https://www.desmos.com/"target="_blank"><i class='bx bx-question-mark'></i>Desmos</a></li>
-            <li><a href="https://www.wolframalpha.com/" target="_blank" ><i class='bx bx-question-mark'></i>Wolfram Alpha</a></li>
+            <li onmouseover="zoomin()" onmouseout="zoomout()" ><a href="https://www.khanacademy.com/" target="_blank" ><i class='bx bx-question-mark'></i>KhanAcademy</a></li>
+            <li onmouseover="zoomin()" onmouseout="zoomout()" ><a href="https://www.map.google.com/"target="_blank"><i class='bx bxs-map'></i>Google Maps</a></li>
+            <li onmouseover="zoomin()" onmouseout="zoomout()" ><a href="https://www.mail.google.com/"target="_blank"><i class='bx bxl-github'></i>Gmail</a></li>
+            <li onmouseover="zoomin()" onmouseout="zoomout()" ><a href="https://www.cloud.google.com/"target="_blank"><i class='bx bx-cloud'></i>Google Cloud</a></li>
+            <li onmouseover="zoomin()" onmouseout="zoomout()" ><a href="https://www.heroku.com/" target="_blank"><i class='bx bx-question-mark'></i>Heroku</a></li>
+            <li onmouseover="zoomin()" onmouseout="zoomout()" ><a href="https://www.quora.com/"target="_blank"><i class='bx bx-question-mark'></i>Quora</a></li>
+            <li onmouseover="zoomin()" onmouseout="zoomout()" ><a href="https://www.desmos.com/"target="_blank"><i class='bx bx-question-mark'></i>Desmos</a></li>
+            <li onmouseover="zoomin()" onmouseout="zoomout()" ><a href="https://www.wolframalpha.com/" target="_blank" ><i class='bx bx-question-mark'></i>Wolfram Alpha</a></li>
             </ul>
           </div>
           
