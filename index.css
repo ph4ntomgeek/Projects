@@ -1,0 +1,22 @@
+body{
+  font-family: 'Otomanopee One', sans-serif;
+}
+
+input {
+  border-radius: 2px;
+  margin: 5px;
+}
+
+button{
+  border-radius: 2px;
+}
+
+.one{
+  float: left;
+  width: 25%;
+  column-gap: 10px;
+}
+
+top{
+  padding-left: 10px; 
+}
