@@ -1,2 +1,2 @@
-# custom-browser-homepage-
-Cminimalist browser homepage
+# custom-browser-homepage
+Minimalist browser homepage
