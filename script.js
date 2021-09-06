@@ -1,5 +1,13 @@
 /* I could've used jquery but i want to brush up my js skills
 so I decided to write the zoomin and zoomout code*/
+
+//clear input box on submit
+
+function cinp(){
+	document.getElementsByTagName("INPUT").reset();
+}
+
+//zoom in and out function
 var width=16;
 var difference=2;
 var interveralID =0;
